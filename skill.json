@@ -1,0 +1,30 @@
+{
+  "name": "genpark-creatify-ad-buyer-optimizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Creatify ad buyer budget optimizer.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "ad-buy",
+    "marketing",
+    "creatify"
+  ],
+  "inputs": {
+    "current_roi": {
+      "type": "number"
+    },
+    "daily_budget": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "recommended_budget": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
